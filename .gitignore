@@ -1,0 +1,21 @@
+# --- C# (.NET) Ignores ---
+bin/
+obj/
+.vs/
+*.user
+*.suo
+appsettings.json 
+appsettings.Development.json
+
+# --- Python Ignores ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+venv/
+.env
+
+# Security Keys and Certs
+*.pem
+*.key
+*.cert
+*.crt
